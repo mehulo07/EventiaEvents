@@ -4,17 +4,159 @@
 <head>
     <meta charset="utf-8">
     <title>Home Page</title>
+    <link rel="stylesheet" href="css/site.css">
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to Eventia Events.</h1>
-    </header>
     <nav>
+        <ul>
+            <li><img id="logo" src="images/logo.svg" alt="company logo" /></li>
+            <li><a href="index.html" target="_self"><strong>Home</strong></a></li>
+            <li><a href="webpages/" target="_self"><strong>Services</strong></a></li>
+            <li><a href="webpages/" target="_self"><strong>Portfolio</strong></a></li>
+            <li><a href="webpages/" target="_self"><strong>Tickets</strong></a></li>
+            <li><a href="webpages/blog.html" target="_self"><strong>Blog</strong></a></li>
+            <li><button id="bookdemo_btn"><img id="celebration_logo" src="images/celebration _logo.png"
+                        alt="celebration logo" /><strong>
+                        Book a Demo</strong></button>
+            </li>
+        </ul>
+
     </nav>
-    <main>
+
+    <main class="main">
+        <div id="first_screen">
+            <div class="heading_div">
+                <h1> We are Eventia Events</h1>
+                <h2>Beautifully Crafted Events, Your Way!</h2>
+                <h2>Weddings, Corporate Events And Parties </h2>
+            </div>
+            <div id="email_div">
+                <input type="text" id="email_txt" name="email" placeholder="  temp@gmail.com">
+                <button id="clear" id="email_btn">Book a Demo</button>
+            </div>
+        </div>
+
+        <div id="second_screen">
+            <h1>Over 200,000+ users worldwide are<br>
+                transforming their meetings and events into<br>
+                experiences.</h1>
+            <div id="second_screen_rating">
+                <div id="first_rating" class="rating">
+                    <img src="images/quote-mark.svg" alt="quote mark" />
+                    <h2 class="testimonials">EventiaEvents is our preferred platform for: hybrid, virtual, and live
+                        events.</h2>
+                    <img src="images/review_person1.webp" class="review_image" />
+                    <h4> - James Williams</h4>
+                </div>
+                <div id="second_rating" class="rating">
+                    <img src="images/quote-mark.svg" alt="quote mark" />
+                    <h2 class="testimonials">EventiaEvents make the process easy from beginning stages to end delivery.
+                        It's definitely the
+                        best app
+                        I've used for our events!</h2>
+                    <img src="images/review_person2.webp" class="review_image" />
+                    <h4> - Mia Victoria</h4>
+                </div>
+                <div id="third_rating" class="rating">
+                    <img src="images/quote-mark.svg" alt="quote mark" />
+                    <h2 class="testimonials"> It's an excellent platform with many great uses and functionalities.</h2>
+                    <img src="images/review_person3.webp" class="review_image" />
+                    <h4> - Flavie Camille</h4>
+                </div>
+            </div>
+            <div>
+                <h2>The enterprise event platform that is crafted, not cobbled.<br>
+                    This is not about the suite. <br> This is about the flawless user experience and consistent data
+                    that the
+                    suite delivers.
+                </h2>
+            </div>
+            <div class="event_type_row">
+                <div class="event_type_column">
+                    <img src="images/inperson_event.png" alt="in-person event logo" class="event_type_logo" />
+                    <h3>In-Person Event</h3>
+                    <p class="event_type_desc">Boost audience engagement with personalized branded mobile apps.</p>
+                </div>
+                <div class="event_type_column">
+                    <img src="images/virtual_event.png" alt="in-person event logo" class="event_type_logo" />
+                    <h3>Virtual Event</h3>
+                    <p class="event_type_desc">Manage video production, speaker green room and audience engagement with
+                        a single studio.</p>
+                </div>
+                <div class="event_type_column">
+                    <img src="images/webinar_event.png" alt="in-person event logo" class="event_type_logo" />
+                    <h3>Webinars Event</h3>
+                    <p class="event_type_desc">Integrate your webinars to your marketing automation and CRM with deep
+                        connectors.</p>
+                </div>
+                <div class="event_type_column">
+                    <img src="images/hybrid_event.png" alt="in-person event logo" class="event_type_logo" />
+                    <h3>Hybrid Event</h3>
+                    <p class="event_type_desc">Configure once, run anywhere with a unique content management system that
+                        drives all your web and
+                        mobile apps.</p>
+                </div>
+            </div>
+        </div>
+        <div class="third_screen">
+            <div class='content-details-1'>
+                <div>
+                    <img src='images/visual-section-1.webp' class='visual-section-image-right'>
+                </div>
+
+                <div class="content_desc_1">
+                    <h2>Enterprise deployment and instant support you can trust 24/7</h2>
+                    <p>Drive company-wide adoption, integration and excellence with
+                        seasoned implementation teams.
+                        Deliver events with white-glove services 24/7, and get live customer support in less than
+                        30 seconds.</p>
+                </div>
+            </div>
+
+            <div class='content-details-2'>
+                <div>
+                    <img src='images/visual-section-2.webp' class='visual-section-image-left'>
+                </div>
+
+                <div class="content_desc_2">
+                    <h2>Love sparks engagement </h2>
+                    <p>Build events participants truly enjoy so they will stay longer and
+                        engage before<br /> and after
+                        the event.</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
+        <div class="item33">
+            <h3>Store hours</h3>
+            <ul>
+                <li>Mon-Sat: 8am- 6pm</li>
+                <li>Sun: 10am- 4pm</li>
+            </ul>
+        </div>
+
+        <div class="item33">
+            <h3>Stores</h3>
+            <ul>
+                <li>Kitchner</li>
+                <li>London</li>
+                <li>Toronto</li>
+                <li>Guelph</li>
+            </ul>
+        </div>
+
+        <div class="item33">
+            <h3>Quick Links</h3>
+            <nav>
+                <a href="index.html" target="_self"> Home</a>
+                <a href="webpages/plants.html" target="_self">Plants</a>
+                <a href="webpages/gardening.html" target="_self">Gardening</a>
+                <a href="webpages/contact.html" target="_self">Contact</a>
+            </nav>
+        </div>
+        <p id="copyright">Copyright © 2023 EventiaEvents </p>
     </footer>
 </body>
 

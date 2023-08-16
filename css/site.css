@@ -1,1 +1,425 @@
-/*Contail all CSS for the website.  */
+/*CSS which applies to all the pages start*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Century Gothic", serif;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+#logo {
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+}
+
+#celebration_logo {
+    width: 32px;
+    height: 32px;
+    padding-top: 5px;
+}
+
+#bookdemo_btn {
+    width: 222px;
+    height: 62px;
+    margin: 16px;
+    margin-left: 500px;
+
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: "Century Gothic", serif;
+    border-radius: 7px;
+    transition: 1s ease-in-out;
+}
+
+#bookdemo_btn:hover {
+    transition: 1s ease-in-out;
+    box-shadow: 0 30px 30px 0 rgba(250, 248, 248, 0.24),
+        0 17px 50px 0 rgb(250, 248, 248, .24);
+}
+
+#first_screen {
+    background-image: url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 604px;
+    position: relative;
+}
+
+.heading_div {
+    color: white;
+    text-decoration: double;
+    font-size: large;
+    font-family: "Century Gothic", serif;
+    padding-top: 213px;
+    margin-right: 950px;
+    text-shadow: 5px 2px 5px red;
+    text-align: center;
+}
+
+
+#email_txt {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 89px;
+    margin-left: 618px;
+}
+
+#email_div>button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    z-index: 2;
+    border: none;
+    top: 2px;
+    height: 36px;
+    width: 150px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(232, 92, 48);
+    transform: translateX(2px);
+    margin-top: 89px;
+    margin-left: 768px;
+}
+
+#email_div {
+    width: 300px;
+    position: relative;
+}
+
+.header_head {
+    position: absolute;
+    margin: 40px;
+    padding: 40px;
+}
+
+#second_screen {
+    text-align: center;
+    max-height: 1100px;
+}
+
+#second_screen_rating {
+    background-color: #333333;
+    width: 100%;
+    height: 420px;
+    display: table;
+}
+
+.rating {
+    background-color: white;
+    float: left;
+    border: 2px solid black;
+    padding: 20px;
+    width: 25%;
+    height: 350px;
+    margin-top: 33px;
+    margin-left: 94px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.review_image {
+    margin-right: 10px;
+    max-width: 55px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.testimonials {
+    max-height: 180px;
+}
+
+.event_type_column {
+    float: left;
+    width: 20%;
+    margin-left: 60px;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+    position: relative;
+    height: 310px;
+}
+
+.event_type_logo {
+    max-width: 100px;
+    padding: 8% 24px 31px 24px;
+}
+
+.event_type_desc {
+    max-width: 80%;
+    text-align: center;
+    padding-left: 26px;
+}
+
+.content-details-1 {
+    width: 80%;
+    padding-top: 18px;
+    padding-left: 64px;
+}
+
+.content_desc_1 {
+    margin-top: 380px;
+}
+
+.content_desc_2 {
+    margin-top: 164px;
+}
+
+.visual-section-image-right {
+    height: 300px;
+    width: 415px;
+    margin-left: 20%;
+    float: right;
+    margin-top: 20px;
+}
+
+.visual-section-image-left {
+    height: 300px;
+    width: 415px;
+    margin-right: 20%;
+    float: left;
+    margin-top: -90px;
+    margin-left: 10%;
+}
+
+
+.content_desc_heading {
+    margin-top: 40px;
+}
+
+.content_desc>p {
+    font-size: 18px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer>div {
+    display: inline-block;
+    width: 33%;
+}
+
+.item33 {
+    float: none;
+    display: block;
+    padding-left: 40%;
+}
+
+footer {
+    /*  font-family: "Century Gothic", "serif"; */
+    font-size: smaller;
+    background-color: #333333;
+    color: #eee;
+    padding: 10px 10%;
+    margin-top: 147px;
+    display: block;
+}
+
+footer nav a {
+    color: #eee;
+    display: block;
+    padding: 0;
+    text-align: left;
+}
+
+/*CSS which applies to all the pages End*/
+
+
+/*CSS which applies to Home page start*/
+
+
+/*CSS which applies to Home page end*/
+
+
+/*CSS which applies to Blog page start*/
+
+.blog_heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+.blog_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.blog_content {
+    text-align-last: center;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+#copyright{
+    text-align: center;
+}
+
+/*CSS which applies to Blog page end*/
+
+/* Media query for home page start*/
+/* @media only screen and (max-width: 575px) {
+
+} */
+
+
+@media screen and (max-width: 575px) {
+
+    #logo {
+        width: 72px;
+        height: 72px;
+        padding: 10px;
+        margin-left: 183px;
+    }
+
+    li {
+        float: none;
+    }
+
+    li a {
+        padding: 15px;
+    }
+
+    #bookdemo_btn {
+        margin-left: 118px;
+    }
+
+    .heading_div {
+        margin-right: 0;
+        padding-top: 130px;
+    }
+
+    #email_div {
+        margin-left: 130px;
+    }
+
+    #email_txt,
+    #email_div>button {
+        width: auto;
+        margin: 8px auto;
+        margin-top: 78px;
+    }
+
+    .header_head {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .visual-section-image-right,
+    .visual-section-image-left {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        float: none;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .item33 {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .rating {
+        background-color: white;
+        float: left;
+        border: 2px solid black;
+        padding: 20px;
+        width: 75%;
+        height: 350px;
+        margin-top: 33px;
+        margin-left: 60px;
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+
+    .event_type_column {
+        float: left;
+        width: 80%;
+        margin-left: 60px;
+        height: 150px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+        position: relative;
+        height: 310px;
+    }
+
+
+    .content-details-1 {
+        width: 80%;
+        padding-top: 18px;
+        padding-left: 64px;
+    }
+
+    .visual-section-image-right {
+        height: 300px;
+        width: 415px;
+        margin-left: 0%;
+        float: right;
+        margin-top: 0px;
+    }
+
+    .visual-section-image-left {
+        height: 300px;
+        width: 415px;
+        margin-right: 0%;
+        float: left;
+        margin-top: -136px;
+        margin-left: 8%;
+    }
+
+
+    .content_desc_1 {
+        margin-top: 850px;
+    }
+
+
+    .content_desc_2 {
+        margin-top: 150px;
+        margin-left: 37px;
+    }
+
+    #copyright{
+        text-align: center;
+    }
+}
+
+/* Media query for home page end*/
